@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option csharp_namespace = "ITI.GRPC.Server.Protos";
+
+import "google/protobuf/timestamp.proto";
+
+service InventoryService{
+	rpc GetProductById(GetProductByIdRequest) returns (GetProductByIdResponse);
+	rpc AddNewProduct(AddNewProductRequest) returns (AddNewProductResponse);
+	rpc UpdateProduct(UpdateProductRequest) returns (UpdateProductResponse);
+}
+
+
+message Product{
+	int32 ProductId = 1;
+	string Name = 2;
+	double Price = 3;
+	int32 Quantity = 4;
+	string Description = 5;
+	google.protobuf.Timestamp ProductionDate = 6;
+}
+
+message GetProductByIdRequest{
+	int32 ProductId = 1;
+}
+
+message GetProductByIdResponse{
+	Product Product = 1;
+}
+
+message AddNewProductRequest{
+	Product Product = 1;
+}
+
+message AddNewProductResponse{
+	Product Product = 1;
+	bool IsSuccess = 2;
+}
+
+message UpdateProductRequest{
+	Product Product = 1;
+}
+
+message UpdateProductResponse{
+	Product Product = 1;
+	bool IsSuccess = 2;
+}
