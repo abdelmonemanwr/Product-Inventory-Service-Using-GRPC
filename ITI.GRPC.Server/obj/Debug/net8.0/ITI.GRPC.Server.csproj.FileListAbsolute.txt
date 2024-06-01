@@ -77,3 +77,5 @@ D:\ITI\GRPC\day1\ITI.GRPC\ITI.GRPC.Server\obj\Debug\net8.0\refint\ITI.GRPC.Serve
 D:\ITI\GRPC\day1\ITI.GRPC\ITI.GRPC.Server\obj\Debug\net8.0\ITI.GRPC.Server.pdb
 D:\ITI\GRPC\day1\ITI.GRPC\ITI.GRPC.Server\obj\Debug\net8.0\ITI.GRPC.Server.genruntimeconfig.cache
 D:\ITI\GRPC\day1\ITI.GRPC\ITI.GRPC.Server\obj\Debug\net8.0\ref\ITI.GRPC.Server.dll
+D:\ITI\GRPC\day1\ITI.GRPC\ITI.GRPC.Server\bin\Debug\net8.0\Grpc.AspNetCore.Server.Reflection.dll
+D:\ITI\GRPC\day1\ITI.GRPC\ITI.GRPC.Server\bin\Debug\net8.0\Grpc.Reflection.dll

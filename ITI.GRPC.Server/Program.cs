@@ -1,3 +1,6 @@
+using ITI.GRPC.Server.Protos;
+using ITI.GRPC.Server.Services;
+
 namespace ITI.GRPC.Server
 {
     public class Program
@@ -11,7 +14,7 @@ namespace ITI.GRPC.Server
 
             // Register the gRPC service to the IOC container.
             builder.Services.AddGrpc();
-
+            builder.Services.AddGrpcReflection();
 
             var app = builder.Build();
 
@@ -29,6 +32,8 @@ namespace ITI.GRPC.Server
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.MapGrpcService<MessageInventoryService>();
 
             app.MapControllerRoute(
                 name: "default",

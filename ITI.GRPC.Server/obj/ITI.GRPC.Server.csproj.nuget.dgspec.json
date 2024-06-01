@@ -53,6 +53,14 @@
               "target": "Package",
               "version": "[2.63.0, )"
             },
+            "Grpc.AspNetCore.Server.ClientFactory": {
+              "target": "Package",
+              "version": "[2.63.0, )"
+            },
+            "Grpc.AspNetCore.Server.Reflection": {
+              "target": "Package",
+              "version": "[2.63.0, )"
+            },
             "Grpc.Net.Client": {
               "target": "Package",
               "version": "[2.63.0, )"
