@@ -32,11 +32,17 @@ namespace ITI.GRPC.Customer
             // Configure the HTTP request pipeline.
 
             //app.UseHttpsRedirection();
+
+            app.UseStaticFiles();
             app.UseRouting();
             app.UseAuthorization();
 
 
-            app.MapControllers();
+            //app.MapControllers();
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Product}/{action=Index}/{id?}"
+            );
 
             app.Run();
         }
