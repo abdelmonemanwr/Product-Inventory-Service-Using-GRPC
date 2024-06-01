@@ -11,7 +11,7 @@ namespace ITI.GRPC.Customer.Controllers
         [HttpPost]
         public async Task<IActionResult> AddOrUpdate(Product product)
         {
-            var channel = GrpcChannel.ForAddress("https://localhost:7111");
+            var channel = GrpcChannel.ForAddress("https://localhost:7293");
             var client = new InventoryService.InventoryServiceClient(channel);
             var request = new GetProductByIdRequest { ProductId = product.ProductId };
             var response = await client.GetProductByIdAsync(request);
