@@ -24,28 +24,27 @@ namespace ITI.GRPC.Server.Protos {
     static InventoryServiceReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Ch1Qcm90b3MvSW52ZW50b3J5U2VydmljZS5wcm90bxofZ29vZ2xlL3Byb3Rv",
-            "YnVmL3RpbWVzdGFtcC5wcm90byKUAQoHUHJvZHVjdBIRCglQcm9kdWN0SWQY",
-            "ASABKAUSDAoETmFtZRgCIAEoCRINCgVQcmljZRgDIAEoARIQCghRdWFudGl0",
-            "eRgEIAEoBRITCgtEZXNjcmlwdGlvbhgFIAEoCRIyCg5Qcm9kdWN0aW9uRGF0",
-            "ZRgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiKgoVR2V0UHJv",
-            "ZHVjdEJ5SWRSZXF1ZXN0EhEKCVByb2R1Y3RJZBgBIAEoBSIzChZHZXRQcm9k",
-            "dWN0QnlJZFJlc3BvbnNlEhkKB1Byb2R1Y3QYASABKAsyCC5Qcm9kdWN0IjEK",
-            "FEFkZE5ld1Byb2R1Y3RSZXF1ZXN0EhkKB1Byb2R1Y3QYASABKAsyCC5Qcm9k",
-            "dWN0IkUKFUFkZE5ld1Byb2R1Y3RSZXNwb25zZRIZCgdQcm9kdWN0GAEgASgL",
-            "MgguUHJvZHVjdBIRCglJc1N1Y2Nlc3MYAiABKAgiMQoUVXBkYXRlUHJvZHVj",
-            "dFJlcXVlc3QSGQoHUHJvZHVjdBgBIAEoCzIILlByb2R1Y3QiRQoVVXBkYXRl",
-            "UHJvZHVjdFJlc3BvbnNlEhkKB1Byb2R1Y3QYASABKAsyCC5Qcm9kdWN0EhEK",
-            "CUlzU3VjY2VzcxgCIAEoCDLVAQoQSW52ZW50b3J5U2VydmljZRJBCg5HZXRQ",
-            "cm9kdWN0QnlJZBIWLkdldFByb2R1Y3RCeUlkUmVxdWVzdBoXLkdldFByb2R1",
-            "Y3RCeUlkUmVzcG9uc2USPgoNQWRkTmV3UHJvZHVjdBIVLkFkZE5ld1Byb2R1",
-            "Y3RSZXF1ZXN0GhYuQWRkTmV3UHJvZHVjdFJlc3BvbnNlEj4KDVVwZGF0ZVBy",
-            "b2R1Y3QSFS5VcGRhdGVQcm9kdWN0UmVxdWVzdBoWLlVwZGF0ZVByb2R1Y3RS",
-            "ZXNwb25zZUIZqgIWSVRJLkdSUEMuU2VydmVyLlByb3Rvc2IGcHJvdG8z"));
+            "Ch1Qcm90b3MvSW52ZW50b3J5U2VydmljZS5wcm90byJgCgdQcm9kdWN0EhEK",
+            "CVByb2R1Y3RJZBgBIAEoBRIMCgROYW1lGAIgASgJEg0KBVByaWNlGAMgASgB",
+            "EhAKCFF1YW50aXR5GAQgASgFEhMKC0Rlc2NyaXB0aW9uGAUgASgJIioKFUdl",
+            "dFByb2R1Y3RCeUlkUmVxdWVzdBIRCglQcm9kdWN0SWQYASABKAUiMwoWR2V0",
+            "UHJvZHVjdEJ5SWRSZXNwb25zZRIZCgdQcm9kdWN0GAEgASgLMgguUHJvZHVj",
+            "dCIxChRBZGROZXdQcm9kdWN0UmVxdWVzdBIZCgdQcm9kdWN0GAEgASgLMggu",
+            "UHJvZHVjdCJFChVBZGROZXdQcm9kdWN0UmVzcG9uc2USGQoHUHJvZHVjdBgB",
+            "IAEoCzIILlByb2R1Y3QSEQoJSXNTdWNjZXNzGAIgASgIIjEKFFVwZGF0ZVBy",
+            "b2R1Y3RSZXF1ZXN0EhkKB1Byb2R1Y3QYASABKAsyCC5Qcm9kdWN0IkUKFVVw",
+            "ZGF0ZVByb2R1Y3RSZXNwb25zZRIZCgdQcm9kdWN0GAEgASgLMgguUHJvZHVj",
+            "dBIRCglJc1N1Y2Nlc3MYAiABKAgy1QEKEEludmVudG9yeVNlcnZpY2USQQoO",
+            "R2V0UHJvZHVjdEJ5SWQSFi5HZXRQcm9kdWN0QnlJZFJlcXVlc3QaFy5HZXRQ",
+            "cm9kdWN0QnlJZFJlc3BvbnNlEj4KDUFkZE5ld1Byb2R1Y3QSFS5BZGROZXdQ",
+            "cm9kdWN0UmVxdWVzdBoWLkFkZE5ld1Byb2R1Y3RSZXNwb25zZRI+Cg1VcGRh",
+            "dGVQcm9kdWN0EhUuVXBkYXRlUHJvZHVjdFJlcXVlc3QaFi5VcGRhdGVQcm9k",
+            "dWN0UmVzcG9uc2VCGaoCFklUSS5HUlBDLlNlcnZlci5Qcm90b3NiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Server.Protos.Product), global::ITI.GRPC.Server.Protos.Product.Parser, new[]{ "ProductId", "Name", "Price", "Quantity", "Description", "ProductionDate" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Server.Protos.Product), global::ITI.GRPC.Server.Protos.Product.Parser, new[]{ "ProductId", "Name", "Price", "Quantity", "Description" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Server.Protos.GetProductByIdRequest), global::ITI.GRPC.Server.Protos.GetProductByIdRequest.Parser, new[]{ "ProductId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Server.Protos.GetProductByIdResponse), global::ITI.GRPC.Server.Protos.GetProductByIdResponse.Parser, new[]{ "Product" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Server.Protos.AddNewProductRequest), global::ITI.GRPC.Server.Protos.AddNewProductRequest.Parser, new[]{ "Product" }, null, null, null, null),
@@ -98,7 +97,6 @@ namespace ITI.GRPC.Server.Protos {
       price_ = other.price_;
       quantity_ = other.quantity_;
       description_ = other.description_;
-      productionDate_ = other.productionDate_ != null ? other.productionDate_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -159,24 +157,15 @@ namespace ITI.GRPC.Server.Protos {
     /// <summary>Field number for the "Description" field.</summary>
     public const int DescriptionFieldNumber = 5;
     private string description_ = "";
+    /// <summary>
+    ///google.protobuf.Timestamp ProductionDate = 6;
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Description {
       get { return description_; }
       set {
         description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "ProductionDate" field.</summary>
-    public const int ProductionDateFieldNumber = 6;
-    private global::Google.Protobuf.WellKnownTypes.Timestamp productionDate_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Google.Protobuf.WellKnownTypes.Timestamp ProductionDate {
-      get { return productionDate_; }
-      set {
-        productionDate_ = value;
       }
     }
 
@@ -200,7 +189,6 @@ namespace ITI.GRPC.Server.Protos {
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Price, other.Price)) return false;
       if (Quantity != other.Quantity) return false;
       if (Description != other.Description) return false;
-      if (!object.Equals(ProductionDate, other.ProductionDate)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -213,7 +201,6 @@ namespace ITI.GRPC.Server.Protos {
       if (Price != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Price);
       if (Quantity != 0) hash ^= Quantity.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
-      if (productionDate_ != null) hash ^= ProductionDate.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -252,10 +239,6 @@ namespace ITI.GRPC.Server.Protos {
         output.WriteRawTag(42);
         output.WriteString(Description);
       }
-      if (productionDate_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(ProductionDate);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -286,10 +269,6 @@ namespace ITI.GRPC.Server.Protos {
         output.WriteRawTag(42);
         output.WriteString(Description);
       }
-      if (productionDate_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(ProductionDate);
-      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -314,9 +293,6 @@ namespace ITI.GRPC.Server.Protos {
       }
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
-      }
-      if (productionDate_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ProductionDate);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -344,12 +320,6 @@ namespace ITI.GRPC.Server.Protos {
       }
       if (other.Description.Length != 0) {
         Description = other.Description;
-      }
-      if (other.productionDate_ != null) {
-        if (productionDate_ == null) {
-          ProductionDate = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-        }
-        ProductionDate.MergeFrom(other.ProductionDate);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -386,13 +356,6 @@ namespace ITI.GRPC.Server.Protos {
             Description = input.ReadString();
             break;
           }
-          case 50: {
-            if (productionDate_ == null) {
-              ProductionDate = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(ProductionDate);
-            break;
-          }
         }
       }
     #endif
@@ -426,13 +389,6 @@ namespace ITI.GRPC.Server.Protos {
           }
           case 42: {
             Description = input.ReadString();
-            break;
-          }
-          case 50: {
-            if (productionDate_ == null) {
-              ProductionDate = new global::Google.Protobuf.WellKnownTypes.Timestamp();
-            }
-            input.ReadMessage(ProductionDate);
             break;
           }
         }

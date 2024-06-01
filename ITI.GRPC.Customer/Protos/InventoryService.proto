@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option csharp_namespace = "ITI.GRPC.Customer.Protos";
 
-import "google/protobuf/timestamp.proto";
+//import "google/protobuf/timestamp.proto";
 
 service InventoryService{
 	rpc GetProductById(GetProductByIdRequest) returns (GetProductByIdResponse);
@@ -17,7 +17,7 @@ message Product{
 	double Price = 3;
 	int32 Quantity = 4;
 	string Description = 5;
-	google.protobuf.Timestamp ProductionDate = 6;
+	//google.protobuf.Timestamp ProductionDate = 6;
 }
 
 message GetProductByIdRequest{

@@ -70,7 +70,7 @@ namespace ITI.GRPC.Server.Services
             product.Price = request.Product.Price;
             product.Quantity = request.Product.Quantity;
             product.Description = request.Product.Description;
-            product.ProductionDate = request.Product.ProductionDate;
+            //product.ProductionDate = request.Product.ProductionDate;
    
             return Task.FromResult(new UpdateProductResponse
             {
