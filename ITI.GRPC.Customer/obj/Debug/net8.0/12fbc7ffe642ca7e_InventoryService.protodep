@@ -1,2 +1,3 @@
 obj\Debug\net8.0\Protos/InventoryService.cs \
-obj\Debug\net8.0\Protos/InventoryServiceGrpc.cs: Protos/InventoryService.proto
+obj\Debug\net8.0\Protos/InventoryServiceGrpc.cs: C:/Users/Men3m/.nuget/packages/grpc.tools/2.64.0/build/native/include/google/protobuf/timestamp.proto\
+ Protos/InventoryService.proto

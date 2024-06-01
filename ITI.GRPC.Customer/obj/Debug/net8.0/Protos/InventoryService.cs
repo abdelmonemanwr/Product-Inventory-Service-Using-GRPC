@@ -24,28 +24,30 @@ namespace ITI.GRPC.Customer.Protos {
     static InventoryServiceReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Ch1Qcm90b3MvSW52ZW50b3J5U2VydmljZS5wcm90byJgCgdQcm9kdWN0EhEK",
-            "CVByb2R1Y3RJZBgBIAEoBRIMCgROYW1lGAIgASgJEg0KBVByaWNlGAMgASgB",
-            "EhAKCFF1YW50aXR5GAQgASgFEhMKC0Rlc2NyaXB0aW9uGAUgASgJIioKFUdl",
-            "dFByb2R1Y3RCeUlkUmVxdWVzdBIRCglQcm9kdWN0SWQYASABKAUiRgoWR2V0",
-            "UHJvZHVjdEJ5SWRSZXNwb25zZRIZCgdQcm9kdWN0GAEgASgLMgguUHJvZHVj",
-            "dBIRCglJc1N1Y2Nlc3MYAiABKAgiMQoUQWRkTmV3UHJvZHVjdFJlcXVlc3QS",
-            "GQoHUHJvZHVjdBgBIAEoCzIILlByb2R1Y3QiVgoVQWRkTmV3UHJvZHVjdFJl",
+            "Ch1Qcm90b3MvSW52ZW50b3J5U2VydmljZS5wcm90bxofZ29vZ2xlL3Byb3Rv",
+            "YnVmL3RpbWVzdGFtcC5wcm90byKUAQoHUHJvZHVjdBIRCglQcm9kdWN0SWQY",
+            "ASABKAUSDAoETmFtZRgCIAEoCRINCgVQcmljZRgDIAEoARIQCghRdWFudGl0",
+            "eRgEIAEoBRITCgtEZXNjcmlwdGlvbhgFIAEoCRIyCg5Qcm9kdWN0aW9uRGF0",
+            "ZRgGIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAiKgoVR2V0UHJv",
+            "ZHVjdEJ5SWRSZXF1ZXN0EhEKCVByb2R1Y3RJZBgBIAEoBSJGChZHZXRQcm9k",
+            "dWN0QnlJZFJlc3BvbnNlEhkKB1Byb2R1Y3QYASABKAsyCC5Qcm9kdWN0EhEK",
+            "CUlzU3VjY2VzcxgCIAEoCCIxChRBZGROZXdQcm9kdWN0UmVxdWVzdBIZCgdQ",
+            "cm9kdWN0GAEgASgLMgguUHJvZHVjdCJWChVBZGROZXdQcm9kdWN0UmVzcG9u",
+            "c2USGQoHUHJvZHVjdBgBIAEoCzIILlByb2R1Y3QSEQoJSXNTdWNjZXNzGAIg",
+            "ASgIEg8KB21lc3NhZ2UYAyABKAkiMQoUVXBkYXRlUHJvZHVjdFJlcXVlc3QS",
+            "GQoHUHJvZHVjdBgBIAEoCzIILlByb2R1Y3QiVgoVVXBkYXRlUHJvZHVjdFJl",
             "c3BvbnNlEhkKB1Byb2R1Y3QYASABKAsyCC5Qcm9kdWN0EhEKCUlzU3VjY2Vz",
-            "cxgCIAEoCBIPCgdtZXNzYWdlGAMgASgJIjEKFFVwZGF0ZVByb2R1Y3RSZXF1",
-            "ZXN0EhkKB1Byb2R1Y3QYASABKAsyCC5Qcm9kdWN0IlYKFVVwZGF0ZVByb2R1",
-            "Y3RSZXNwb25zZRIZCgdQcm9kdWN0GAEgASgLMgguUHJvZHVjdBIRCglJc1N1",
-            "Y2Nlc3MYAiABKAgSDwoHbWVzc2FnZRgDIAEoCTLVAQoQSW52ZW50b3J5U2Vy",
-            "dmljZRJBCg5HZXRQcm9kdWN0QnlJZBIWLkdldFByb2R1Y3RCeUlkUmVxdWVz",
-            "dBoXLkdldFByb2R1Y3RCeUlkUmVzcG9uc2USPgoNQWRkTmV3UHJvZHVjdBIV",
-            "LkFkZE5ld1Byb2R1Y3RSZXF1ZXN0GhYuQWRkTmV3UHJvZHVjdFJlc3BvbnNl",
-            "Ej4KDVVwZGF0ZVByb2R1Y3QSFS5VcGRhdGVQcm9kdWN0UmVxdWVzdBoWLlVw",
-            "ZGF0ZVByb2R1Y3RSZXNwb25zZUIbqgIYSVRJLkdSUEMuQ3VzdG9tZXIuUHJv",
-            "dG9zYgZwcm90bzM="));
+            "cxgCIAEoCBIPCgdtZXNzYWdlGAMgASgJMtUBChBJbnZlbnRvcnlTZXJ2aWNl",
+            "EkEKDkdldFByb2R1Y3RCeUlkEhYuR2V0UHJvZHVjdEJ5SWRSZXF1ZXN0Ghcu",
+            "R2V0UHJvZHVjdEJ5SWRSZXNwb25zZRI+Cg1BZGROZXdQcm9kdWN0EhUuQWRk",
+            "TmV3UHJvZHVjdFJlcXVlc3QaFi5BZGROZXdQcm9kdWN0UmVzcG9uc2USPgoN",
+            "VXBkYXRlUHJvZHVjdBIVLlVwZGF0ZVByb2R1Y3RSZXF1ZXN0GhYuVXBkYXRl",
+            "UHJvZHVjdFJlc3BvbnNlQhuqAhhJVEkuR1JQQy5DdXN0b21lci5Qcm90b3Ni",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Customer.Protos.Product), global::ITI.GRPC.Customer.Protos.Product.Parser, new[]{ "ProductId", "Name", "Price", "Quantity", "Description" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Customer.Protos.Product), global::ITI.GRPC.Customer.Protos.Product.Parser, new[]{ "ProductId", "Name", "Price", "Quantity", "Description", "ProductionDate" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Customer.Protos.GetProductByIdRequest), global::ITI.GRPC.Customer.Protos.GetProductByIdRequest.Parser, new[]{ "ProductId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Customer.Protos.GetProductByIdResponse), global::ITI.GRPC.Customer.Protos.GetProductByIdResponse.Parser, new[]{ "Product", "IsSuccess" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ITI.GRPC.Customer.Protos.AddNewProductRequest), global::ITI.GRPC.Customer.Protos.AddNewProductRequest.Parser, new[]{ "Product" }, null, null, null, null),
@@ -98,6 +100,7 @@ namespace ITI.GRPC.Customer.Protos {
       price_ = other.price_;
       quantity_ = other.quantity_;
       description_ = other.description_;
+      productionDate_ = other.productionDate_ != null ? other.productionDate_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -158,15 +161,24 @@ namespace ITI.GRPC.Customer.Protos {
     /// <summary>Field number for the "Description" field.</summary>
     public const int DescriptionFieldNumber = 5;
     private string description_ = "";
-    /// <summary>
-    ///google.protobuf.Timestamp ProductionDate = 6;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Description {
       get { return description_; }
       set {
         description_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ProductionDate" field.</summary>
+    public const int ProductionDateFieldNumber = 6;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp productionDate_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ProductionDate {
+      get { return productionDate_; }
+      set {
+        productionDate_ = value;
       }
     }
 
@@ -190,6 +202,7 @@ namespace ITI.GRPC.Customer.Protos {
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Price, other.Price)) return false;
       if (Quantity != other.Quantity) return false;
       if (Description != other.Description) return false;
+      if (!object.Equals(ProductionDate, other.ProductionDate)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -202,6 +215,7 @@ namespace ITI.GRPC.Customer.Protos {
       if (Price != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Price);
       if (Quantity != 0) hash ^= Quantity.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
+      if (productionDate_ != null) hash ^= ProductionDate.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -240,6 +254,10 @@ namespace ITI.GRPC.Customer.Protos {
         output.WriteRawTag(42);
         output.WriteString(Description);
       }
+      if (productionDate_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(ProductionDate);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -270,6 +288,10 @@ namespace ITI.GRPC.Customer.Protos {
         output.WriteRawTag(42);
         output.WriteString(Description);
       }
+      if (productionDate_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(ProductionDate);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -294,6 +316,9 @@ namespace ITI.GRPC.Customer.Protos {
       }
       if (Description.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Description);
+      }
+      if (productionDate_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ProductionDate);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -321,6 +346,12 @@ namespace ITI.GRPC.Customer.Protos {
       }
       if (other.Description.Length != 0) {
         Description = other.Description;
+      }
+      if (other.productionDate_ != null) {
+        if (productionDate_ == null) {
+          ProductionDate = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ProductionDate.MergeFrom(other.ProductionDate);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -357,6 +388,13 @@ namespace ITI.GRPC.Customer.Protos {
             Description = input.ReadString();
             break;
           }
+          case 50: {
+            if (productionDate_ == null) {
+              ProductionDate = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ProductionDate);
+            break;
+          }
         }
       }
     #endif
@@ -390,6 +428,13 @@ namespace ITI.GRPC.Customer.Protos {
           }
           case 42: {
             Description = input.ReadString();
+            break;
+          }
+          case 50: {
+            if (productionDate_ == null) {
+              ProductionDate = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(ProductionDate);
             break;
           }
         }
