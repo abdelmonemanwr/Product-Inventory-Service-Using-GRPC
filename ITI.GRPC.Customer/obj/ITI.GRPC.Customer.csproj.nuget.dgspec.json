@@ -59,6 +59,18 @@
               "target": "Package",
               "version": "[2.64.0, )"
             },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
             "System.Diagnostics.Tools": {
               "target": "Package",
               "version": "[4.3.0, )"

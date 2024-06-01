@@ -33,6 +33,27 @@ namespace ITI.GRPC.Server.Services
             });
         }
 
+        //public override Task<UpdateProductResponse> UpdateProduct(UpdateProductRequest request, ServerCallContext context)
+        //{
+        //    var product = ProductList.Products.FirstOrDefault(p => p.ProductId == request.Product.ProductId);
+        //    if (product == null)
+        //    {
+        //        return Task.FromResult(new UpdateProductResponse
+        //        {
+        //            Product = new Product(),
+        //            IsSuccess = false
+        //        });
+        //    }
+
+        //    ProductList.Products.Remove(product);
+        //    ProductList.Products.Add(request.Product);
+        //    return Task.FromResult(new UpdateProductResponse
+        //    {
+        //        Product = request.Product,
+        //        IsSuccess = true
+        //    });
+        //}
+
         public override Task<UpdateProductResponse> UpdateProduct(UpdateProductRequest request, ServerCallContext context)
         {
             var product = ProductList.Products.FirstOrDefault(p => p.ProductId == request.Product.ProductId);
@@ -44,8 +65,13 @@ namespace ITI.GRPC.Server.Services
                     IsSuccess = false
                 });
             }
-            ProductList.Products.Remove(product);
-            ProductList.Products.Add(request.Product);
+             
+            product.Name = request.Product.Name;
+            product.Price = request.Product.Price;
+            product.Quantity = request.Product.Quantity;
+            product.Description = request.Product.Description;
+            product.ProductionDate = request.Product.ProductionDate;
+   
             return Task.FromResult(new UpdateProductResponse
             {
                 Product = request.Product,

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2oFA/y/i05+3XMDcsnhFP/iM5Q0i9wJnXLRgwlXWzyMwq4cskb1vLed4vEQjj6ma6Mp4UcUKu51nSG3gVuHnkA==",
+  "dgSpecHash": "Jf5Z8uhvlgsNo3l/haCgIfqgdKVa37mV7ncSuNJQW0o/62gKeMK3huILykEod0dkjAYm1fPkX2jDGbQ2v9e9fw==",
   "success": true,
   "projectFilePath": "D:\\ITI\\GRPC\\day1\\ITI.GRPC\\ITI.GRPC.Customer\\ITI.GRPC.Customer.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,15 @@
     "C:\\Users\\Men3m\\.nuget\\packages\\grpc.net.client\\2.63.0\\grpc.net.client.2.63.0.nupkg.sha512",
     "C:\\Users\\Men3m\\.nuget\\packages\\grpc.net.common\\2.63.0\\grpc.net.common.2.63.0.nupkg.sha512",
     "C:\\Users\\Men3m\\.nuget\\packages\\grpc.tools\\2.64.0\\grpc.tools.2.64.0.nupkg.sha512",
+    "C:\\Users\\Men3m\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Men3m\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Men3m\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Men3m\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Men3m\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\Men3m\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\Men3m\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\Men3m\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\Men3m\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
     "C:\\Users\\Men3m\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\Men3m\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],
